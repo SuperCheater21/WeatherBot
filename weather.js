@@ -6,10 +6,10 @@ const axios =  require('axios')
 const TelegramApi = require('node-telegram-bot-api')
 console.log('Bot has been started ...')
 
-let city = '1',county;
-let lat = 0,lon = 0
-let kol = 0 //переменной для того, чтобы бот отправлял ответ один раз
-let kolError = 0
+let city = '1',county; // заданный город и найденная страна
+let lat = 0,lon = 0 //положение города на карте
+let kol = 0,kolError = 0 //переменной для того, чтобы бот отправлял ответ один раз
+
 
 const myRequest = (url) => {
   return new Promise((resolve, reject) => {
