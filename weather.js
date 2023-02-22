@@ -1,7 +1,7 @@
-const TOKEN = "1811642396:AAEPiqTCt9iX0jFJhORyWb1LD0suTjU3uzQ"
+// telegram token here
 const { query } = require('express')
 const fs = require('fs')
-const apiKey = 'aa7b330c3c854b82c3299f9b184fcabf'
+//apikey here
 const axios =  require('axios')
 const TelegramApi = require('node-telegram-bot-api')
 console.log('Bot has been started ...')
